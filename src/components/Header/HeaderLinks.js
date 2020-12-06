@@ -25,7 +25,32 @@ const useStyles = makeStyles(styles);
 export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
-    <List className={classes.list}>  
+    <List className={classes.list}>
+
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Link to="/termsandconditions" className={classes.dropdownLink}>
+            TermsAndConditions
+            </Link>,
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+          <Link to="/privacy" className={classes.dropdownLink}>
+            Privacy Policies
+            </Link>,
+        </Button>
+      </ListItem>
+
+
       <ListItem className={classes.listItem}>
         {/*<Tooltip title="Delete">
           <IconButton aria-label="Delete">
