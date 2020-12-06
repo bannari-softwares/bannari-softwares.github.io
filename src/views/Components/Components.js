@@ -53,9 +53,9 @@ export default function Components(props) {
           <GridContainer>
             <GridItem>
               <div className={classes.brand}>
-                <h1 className={classes.title}>Material Kit React.</h1>
+                <h1 className={classes.title}>WhatsTouch</h1>
                 <h3 className={classes.subtitle}>
-                  A Badass Material-UI Kit based on Material Design.
+                 A app used to track, manage, save status on different type of Whatsup
                 </h3>
               </div>
             </GridItem>
