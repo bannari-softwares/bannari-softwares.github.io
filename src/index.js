@@ -10,6 +10,8 @@ import Components from "views/Components/Components.js";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import ProfilePage from "views/ProfilePage/ProfilePage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
+import Privacy from 'views/Privacy Policies/Privacy.js';
+import TermsAndConditions from 'views/TermsAndConditions/TermsAndConditions.js';
 
 var hist = createBrowserHistory();
 // const reload = () => window.location.reload();
@@ -20,6 +22,8 @@ ReactDOM.render(
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/profile-page" component={ProfilePage} />
       <Route path="/login-page" component={LoginPage} />
+      <Route path="/privacy" component={Privacy} />
+      <Route path="/termsandconditions" component={TermsAndConditions} />
       <Route path="/" component={Components} />
       {/* <Route path="/app-ads.txt" onEnter={reload} /> */}
 
