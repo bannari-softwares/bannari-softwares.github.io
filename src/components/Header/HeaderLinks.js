@@ -47,6 +47,9 @@ export default function HeaderLinks(props) {
           <Link to="/privacy" className={classes.dropdownLink}>
             Privacy Policies
             </Link>,
+            <Link to="/privacyfortraveltouch" className={classes.dropdownLink}>
+            Privacy Policies for Travel touch
+            </Link>,
         </Button>
       </ListItem>
 
