@@ -23,6 +23,12 @@ const PrivacyForTravel = () => {
                     The terms used in this Privacy Policy have the same meanings
                     as in our Terms and Conditions, which is accessible at
                     TravelTouch unless otherwise defined in this Privacy Policy.
+                    <p>
+                    <strong>All Files Access Permission</strong>
+                </p> 
+                <p>
+                    As per Android 11 policies,User must give All Files Access Permission permission
+                </p> 
                 </p> <p><strong>Information Collection and Use</strong></p> <p>
                     For a better experience, while using our Service, I
                     may require you to provide us with certain personally

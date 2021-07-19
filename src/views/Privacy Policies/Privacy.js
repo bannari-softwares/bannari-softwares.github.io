@@ -23,12 +23,26 @@ const Privacy = () => {
                     The terms used in this Privacy Policy have the same meanings
                     as in our Terms and Conditions, which is accessible at
                     WhatsTouch unless otherwise defined in this Privacy Policy.
-                </p> <p><strong>Information Collection and Use</strong></p> <p>
+                </p>
+                
+                 <p>
+                    <strong>Information Collection and Use</strong>
+                </p> 
+                <p>
                     For a better experience, while using our Service, I
                     may require you to provide us with certain personally
                     identifiable information, including but not limited to DataMetrics, Analytical data,Events,Crash reports. The information that
                     I request will be retained on your device and is not collected by me in any way.
-                </p> <div><p>
+                </p>
+                
+                 <p>
+                    <strong>All Files Access Permission</strong>
+                </p> 
+                <p>
+                    As per Android 11 policies,User must give All Files Access Permission permission
+                </p> 
+                
+                <div><p>
                     The app does use third party services that may collect
                     information used to identify you.
                   </p> <p>

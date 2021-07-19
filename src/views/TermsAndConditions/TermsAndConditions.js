@@ -106,7 +106,12 @@ const TermsAndConditions = () => {
                 Terms and Conditions, do not hesitate to contact me
                 at bannarisoftwares@gmail.com.
                 </p>
-
+                <p>
+                    <strong>All Files Access Permission</strong>
+                </p> 
+                <p>
+                    As per Android 11 policies,User must give All Files Access Permission permission
+                </p> 
         </body>
     </div>);
 }
